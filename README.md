@@ -1,41 +1,34 @@
-📱 StickerSmash – Expo React Native App
-📌 Overview
+# StickerSmash – Expo React Native App
 
-StickerSmash is a simple mobile application built using Expo and React Native. The app allows users to select an image from their device, add stickers on top of the image, and interact with basic UI components. The purpose of this project is to demonstrate core React Native concepts and Expo tooling.
+## Overview
+StickerSmash is a mobile application built with Expo and React Native that allows users to select an image from their device and place stickers on top of it. The project focuses on learning core React Native concepts, Expo tooling, and basic mobile UI interactions.
 
-This application was developed as part of learning Expo Router, React Native components, and mobile UI interactions.
+This application was developed as part of the official Expo learning process.
 
-🎯 Objectives
+---
 
-The main objectives of the StickerSmash app are to:
+## Objectives
+- Learn how to create a React Native app using Expo
+- Understand component-based architecture
+- Work with images and media from the device
+- Use React hooks for state management
+- Apply styling using StyleSheet
+- Understand basic navigation and layouts
 
-Learn how to set up a React Native app using Expo
+---
 
-Understand component-based UI development
+## Technologies Used
+- React Native
+- Expo
+- JavaScript / TypeScript
+- Expo Image Picker
+- Expo Router
+- StyleSheet API
 
-Work with images and media from the device
+---
 
-Use state management with React hooks
-
-Practice styling using StyleSheet
-
-Understand navigation and layout basics
-
-🛠️ Technologies Used
-
-React Native
-
-Expo
-
-JavaScript / TypeScript
-
-Expo Image Picker
-
-Expo Router (if applicable)
-
-StyleSheet API
-
-📂 Project Structure (Simplified)
+## Project Structure
+```
 StickerSmash/
 ├── app/
 │   ├── index.tsx
@@ -50,84 +43,74 @@ StickerSmash/
 │   └── stickers/
 ├── package.json
 └── README.md
+```
 
-⚙️ Features
+---
 
-Select an image from the device gallery
+## Features
+- Select an image from the device gallery
+- Display the selected image
+- Add stickers on top of the image
+- Change or reset the image
+- Simple and responsive user interface
 
-Display the selected image on screen
+---
 
-Add stickers on top of the image
+## Installation and Setup
 
-Reset or change the selected image
+### Prerequisites
+- Node.js
+- Expo CLI
+- Expo Go app or Android/iOS emulator
 
-Responsive and mobile-friendly UI
-
-🚀 Getting Started
-Prerequisites
-
-Make sure you have the following installed:
-
-Node.js
-
-Expo CLI
-
-A mobile device with Expo Go or an emulator
-
-Installation Steps
-
-Clone the repository:
-
+### Steps
+1. Clone the repository
+```bash
 git clone https://github.com/your-username/stickersmash.git
+```
 
-
-Navigate to the project folder:
-
+2. Navigate to the project directory
+```bash
 cd stickersmash
+```
 
-
-Install dependencies:
-
+3. Install dependencies
+```bash
 npm install
+```
 
-
-Start the app:
-
+4. Start the development server
+```bash
 npx expo start
+```
 
+5. Scan the QR code using Expo Go or run on an emulator
 
-Scan the QR code using Expo Go or run on an emulator.
+---
 
-🧠 Key Concepts Learned
+## Key Concepts Learned
+- React Native core components
+- State management using useState
+- Handling user interactions
+- Working with local assets and images
+- Mobile layout and styling
+- Expo development workflow
 
-React Native components (View, Text, Image, Pressable)
+---
 
-React hooks (useState)
+## Future Improvements
+- Drag and drop stickers
+- Resize and rotate stickers
+- Save edited images to the device
+- Add animations and transitions
 
-Styling with StyleSheet
+---
 
-Handling user interactions
+## Author
+Andile Manganye  
+Computer Science Graduate  
 
-Working with images and assets
+---
 
-Mobile app layout structure
-
-Expo development workflow
-
-
-🧪 Future Improvements
-
-Add drag-and-drop sticker positioning
-
-Allow resizing and rotating stickers
-
-Save edited images to device
-
-Add multiple sticker layers
-
-Improve UI animations
-
-👨‍💻 Author
-
-Andile Manganye
-Aspiring Software Developer
+## License
+This project is for educational purposes only.
