@@ -1,50 +1,133 @@
-# Welcome to your Expo app 👋
+📱 StickerSmash – Expo React Native App
+📌 Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+StickerSmash is a simple mobile application built using Expo and React Native. The app allows users to select an image from their device, add stickers on top of the image, and interact with basic UI components. The purpose of this project is to demonstrate core React Native concepts and Expo tooling.
 
-## Get started
+This application was developed as part of learning Expo Router, React Native components, and mobile UI interactions.
 
-1. Install dependencies
+🎯 Objectives
 
-   ```bash
-   npm install
-   ```
+The main objectives of the StickerSmash app are to:
 
-2. Start the app
+Learn how to set up a React Native app using Expo
 
-   ```bash
-   npx expo start
-   ```
+Understand component-based UI development
 
-In the output, you'll find options to open the app in a
+Work with images and media from the device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Use state management with React hooks
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Practice styling using StyleSheet
 
-## Get a fresh project
+Understand navigation and layout basics
 
-When you're ready, run:
+🛠️ Technologies Used
 
-```bash
-npm run reset-project
-```
+React Native
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo
 
-## Learn more
+JavaScript / TypeScript
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo Image Picker
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Expo Router (if applicable)
 
-## Join the community
+StyleSheet API
 
-Join our community of developers creating universal apps.
+📂 Project Structure (Simplified)
+StickerSmash/
+├── app/
+│   ├── index.tsx
+│   ├── _layout.tsx
+│   └── (tabs)/
+├── components/
+│   ├── ImageViewer.tsx
+│   ├── Button.tsx
+│   └── StickerPicker.tsx
+├── assets/
+│   ├── images/
+│   └── stickers/
+├── package.json
+└── README.md
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+⚙️ Features
+
+Select an image from the device gallery
+
+Display the selected image on screen
+
+Add stickers on top of the image
+
+Reset or change the selected image
+
+Responsive and mobile-friendly UI
+
+🚀 Getting Started
+Prerequisites
+
+Make sure you have the following installed:
+
+Node.js
+
+Expo CLI
+
+A mobile device with Expo Go or an emulator
+
+Installation Steps
+
+Clone the repository:
+
+git clone https://github.com/your-username/stickersmash.git
+
+
+Navigate to the project folder:
+
+cd stickersmash
+
+
+Install dependencies:
+
+npm install
+
+
+Start the app:
+
+npx expo start
+
+
+Scan the QR code using Expo Go or run on an emulator.
+
+🧠 Key Concepts Learned
+
+React Native components (View, Text, Image, Pressable)
+
+React hooks (useState)
+
+Styling with StyleSheet
+
+Handling user interactions
+
+Working with images and assets
+
+Mobile app layout structure
+
+Expo development workflow
+
+
+🧪 Future Improvements
+
+Add drag-and-drop sticker positioning
+
+Allow resizing and rotating stickers
+
+Save edited images to device
+
+Add multiple sticker layers
+
+Improve UI animations
+
+👨‍💻 Author
+
+Andile Manganye
+Aspiring Software Developer
